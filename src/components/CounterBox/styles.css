@@ -1,0 +1,39 @@
+.md-wrapper {
+    position: absolute;
+    display: flex;
+    height: 3.0rem;
+}
+
+.md-label {
+    position: absolute;
+    top: 50%;
+    left: 0.65rem;
+    /* transform: translateY(-50%); */
+    transform: translateY(-2.4rem);
+    background: #181d2b ;
+    padding: 0.25rem 0.5rem;
+    color: #888888;
+    pointer-events: none;
+    transition: all 0.375s;
+    font-size: 0.9rem;
+}
+
+.md-input {
+    height: inherit;
+    width: 7rem;
+    padding: 0 0rem 0 2.5rem;
+    border: 1px solid #888888;
+    border-radius: 0.5rem;
+    outline: none;
+    background: transparent;
+    color: #f9f9f9;
+    font-size: 0.9rem;
+    transition: all 0.375s;
+    border-color: #8f44fd;
+}
+
+/* .md-input:focus ~ .md-label{
+    transform: translateY(-2.875rem) scale(0.875);
+    background: #181d2b ;
+    color: rgba(255, 255, 255, 0.57);
+} */
