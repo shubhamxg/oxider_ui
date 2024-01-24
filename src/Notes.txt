@@ -1,0 +1,11 @@
+19 display flex -> space-around
+19 display flex -> vertical menus
+19 display flex -> Simple rows (dark mode)
+23 psuedo elements -> Speed gauge
+extra instagram content -> Material design textbox
+extra instagram content -> round switch
+
+// ENV COUNTERS
+
+> Database credentials
+

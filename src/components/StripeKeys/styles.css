@@ -1,0 +1,8 @@
+.stripe-card {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column-reverse;
+    /* justify-content: sp; */
+    gap: 70px;
+    padding: 1rem;
+}

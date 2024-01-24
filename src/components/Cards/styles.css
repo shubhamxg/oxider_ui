@@ -7,9 +7,9 @@
 
 .block {
     background: #181d2b;
-    width: 24rem;
-    height: 15rem;
-    padding: 0 1rem 1rem;
+    width: 25rem;
+    height: 18.9rem;
+    padding: 0.5rem 1rem 1rem;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -23,4 +23,36 @@ h2 {
 h5 {
     margin: 0%;
     color: #51515b;
+}
+
+
+.stripe-card {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column-reverse;
+    /* justify-content: sp; */
+    gap: 60px;
+    padding: 1rem;
+}
+
+.grid-stack {
+    display: grid;
+    gap: 1rem;
+}
+
+.gap-counter {
+    display: grid;
+    gap: 5rem;
+    padding: 1rem 0rem 0rem 1.5rem;
+    grid-template-columns: repeat(auto-fit, 100px);
+    /* align-items: center; */
+    /* width: 16rem; */
+    /* height: 3.5rem; */
+    /* padding: 0 1rem; */
+    /* justify-content: space-between; */
+    /* border-radius: 0.25rem; */
+}
+
+.stripe-box, .stats-box {
+    margin-top: 25px;
 }
