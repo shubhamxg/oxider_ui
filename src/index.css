@@ -20,7 +20,7 @@ code {
 .parent {
   display: grid;
   grid-template-columns: 0.7fr repeat(4, 1fr);
-  grid-template-rows: 0.3fr repeat(3, 1fr);
+  grid-template-rows: 2.1rem repeat(3, 0.97fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }

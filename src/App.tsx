@@ -20,8 +20,6 @@ function App() {
           <h1>PARSER Placeholder</h1>
           <div className="widget-align">
             <div className="widget-icon">
-              {/* <PollIcon width="45" height="50" fill="#45424d"/> */}
-              {/* <PollIcon width="45" height="50" fill="#7e18ff"/> */}
               <PollIcon width="45" height="50" fill="orange"/>
               <Widgets title="542" caption="Checked" />
             </div>
@@ -45,13 +43,13 @@ function App() {
           </div>
         </div>
         <div className="card-details">
-          <Cards title="Stripe" subtitle="Keys" />
+          <Cards title="Stripe" subtitle="Keys" type="stripe-box" />
         </div>
         <div className="card-stats">
           <Cards title="API" subtitle="Keys" />
         </div>
         <div className="card-top-domains">
-          <Cards title="Analysis" subtitle="Details" />
+          <Cards title="Analysis" subtitle="Details" type="stats-box"/>
         </div>
         <div className="card-apis">
           <Cards title="Vulnerable" subtitle="Url Details" />
